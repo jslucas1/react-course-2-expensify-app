@@ -8,8 +8,6 @@ const config = {
     projectId: process.env.FIREBASE_PROJECT_ID,
     storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
     messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID
- //   appId: "1:707411248890:web:dda8da216b3d62ee6e2b43",
- //   measurementId: "G-N3M5K1SW26"
 };
 
 firebase.initializeApp(config);
